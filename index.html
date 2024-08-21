@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.cdnfonts.com/css/digital-numbers"
+      rel="stylesheet"/>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+    <title>E-Clock</title>
+  </head>
+  <body>
+    <span onclick="DarkMode()" class="material-symbols-outlined">contrast</span>
+    <h1>E-Clock</h1>
+    <div class="clock-app">
+      <div class="clock">
+        <div class="time-box">
+          <div class="hr" id="hr">15</div>
+        </div>
+
+        <div class="time-box">
+          <div class="mn" id="mn">06</div>
+        </div>
+
+        <div class="time-box">
+          <div class="sc" id="sc">25</div>
+        </div>
+
+        <div class="time-box">
+          <div class="sc msc" id="sc">255</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <button data-country="baku" class="baku active class">Bakı</button>
+      <button data-country="london" class="london">London</button>
+      <button data-country="moscow" class="moscow">Moscow</button>
+      <button data-country="istanbul" class="istanbul">Istanbul</button>
+      <button data-country="nyc" class="nyc">New York City</button>
+      <button data-country="beijing" class="beijing">Beijing</button>
+      <button data-country="tokyo" class="tokyo">Tokyo</button>
+    </div>
+  </body>
+</html>
